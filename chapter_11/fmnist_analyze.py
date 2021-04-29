@@ -8,7 +8,7 @@ def Cohen_d(a,b):
     return (a.mean() - b.mean()) / np.sqrt(0.5*(s1+s2))
 
 #  Load the MCC for repeated trainings
-m_no = np.load("../nn/fmnist_no_momentum_runs.npy")
+m_no = np.load("fmnist_no_momentum_runs.npy")
 m_w = np.load("fmnist_w_momentum_runs.npy")
 
 hn,xn = np.histogram(m_no, bins=5)

@@ -13,10 +13,10 @@ import numpy as np
 from NNm import *
 
 #  Load, reshape, and scale the data
-x_train = np.load("../nn/dataset/fmnist_train_images_small.npy")/255
-x_test  = np.load("../nn/dataset/fmnist_test_images_small.npy")/255
-y_train = np.load("../nn/dataset/fmnist_train_labels_vector.npy")
-y_test  = np.load("../nn/dataset/fmnist_test_labels.npy")
+x_train = np.load("../dataset/fmnist_train_images_small.npy")/255
+x_test  = np.load("../dataset/fmnist_test_images_small.npy")/255
+y_train = np.load("../dataset/fmnist_train_labels_vector.npy")
+y_test  = np.load("../dataset/fmnist_test_labels.npy")
 
 x_train = x_train.reshape(x_train.shape[0], 1, 14*14)
 x_test = x_test.reshape(x_test.shape[0], 1, 14*14)
