@@ -6,6 +6,6 @@ or comments, please contact me:
 
 rkneuselbooks@gmail.com
 
-**(06-Nov-2022)**
-- The file ''tutorial.pdf'' is a beginner's guide to NumPy, SciPy, Matplotlib, and Pillow.
+**Updates**
+- The file *tutorial.pdf* is a beginner's guide to NumPy, SciPy, Matplotlib, and Pillow.
 
