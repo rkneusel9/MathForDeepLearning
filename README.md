@@ -4,5 +4,8 @@ Source code for the book "Math for Deep Learning"
 Source code is organized by chapter.  If you have questions
 or comments, please contact me:
 
-mathfordeeplearning @ gmail . com
+rkneuselbooks@gmail.com
+
+**(06-Nov-2022)**
+- The file ''tutorial.pdf'' is a beginner's guide to NumPy, SciPy, Matplotlib, and Pillow.
 
