@@ -69,7 +69,7 @@ class FullyConnectedLayer:
         weights_error = np.dot(self.input.T, output_error)
 
         #  accumulate the error over the minibatch
-        self.delta_w += np.dot(self.input.T, output_error)
+        self.delta_w += weights_error
         self.delta_b += output_error
         self.passes += 1
         return input_error
