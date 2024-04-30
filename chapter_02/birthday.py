@@ -14,8 +14,8 @@ import numpy as np
 N = 100000
 match = 0
 for i in range(N):
-    a = np.random.randint(0,364)
-    b = np.random.randint(0,364)
+    a = np.random.randint(0,365)
+    b = np.random.randint(0,365)
     if (a == b):
         match += 1
 print()
@@ -29,7 +29,7 @@ for m in range(2,M+1):
     matches = 0
     for n in range(N): 
         match = 0
-        b = np.random.randint(0,364,m)
+        b = np.random.randint(0,365,m)
         for i in range(m):
             for j in range(m):
                 if (i != j) and (b[i] == b[j]):
