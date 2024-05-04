@@ -7,6 +7,7 @@ or comments, please contact me:
 rkneuselbooks@gmail.com
 
 **Updates**
+- The file *boston.py* in Chapter 2 was resampling the same person at times (thanks to ikimmit for the catch!)
 - The file *tutorial.pdf* is a beginner's guide to NumPy, SciPy, Matplotlib, and Pillow.
 - p 29, the upper limit on randint should be 365, not 364 (code updated).
 - p 198, the derivative of a matrix function should be scalar $\partial x$, not $\partial\mathbf{x}$.

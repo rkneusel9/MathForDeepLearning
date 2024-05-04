@@ -7,7 +7,7 @@ N = 100000
 nb = 0
 
 for i in range(N):
-    s = np.random.randint(0,P,M)
+    s = np.random.choice(P,M, replace=False)
     fail = False
     for t in range(M):
         if (s[t] < B):
