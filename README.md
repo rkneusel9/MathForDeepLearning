@@ -7,6 +7,7 @@ or comments, please contact me:
 rkneuselbooks@gmail.com
 
 **Updates**
+- p 300, the last sentence of the penultimate paragraph should read "Here, t, an integer starting at *one*, is the timestep."
 - The file *boston.py* in Chapter 2 was sampling the same person repeatedly at times (thanks to ikimmit for the catch!)
 - The file *tutorial.pdf* is a beginner's guide to NumPy, SciPy, Matplotlib, and Pillow.
 - p 29, the upper limit on randint should be 365, not 364 (code updated).
