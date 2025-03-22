@@ -1,13 +1,13 @@
 import numpy as np
 import matplotlib.pylab as plt
-import scipy.misc
+import scipy.datasets
 from PIL import Image
 
-im = scipy.misc.face(True)[:512,512:]
+im = scipy.datasets.face(True)[:512,512:]
 Image.fromarray(im).save("ricky.png")
 hr,xr = np.histogram(im, bins=256)
 hr = hr/hr.sum()
-im = scipy.misc.ascent().astype("uint8")
+im = scipy.datasets.ascent().astype("uint8")
 Image.fromarray(im).save("ascent.png")
 ha,xa = np.histogram(im, bins=256)
 ha = ha/ha.sum()
