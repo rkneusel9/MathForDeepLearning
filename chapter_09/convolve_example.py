@@ -4,7 +4,7 @@
 #
 import numpy as np
 from scipy.signal import convolve2d
-from scipy.misc import face
+from scipy.datasets import face
 from PIL import Image
 
 #  Get Ricky's face

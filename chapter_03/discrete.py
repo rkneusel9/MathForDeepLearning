@@ -1,7 +1,7 @@
 # discrete probability distributions
 import numpy as np
 import matplotlib.pylab as plt
-from scipy.misc import face
+from scipy.datasets import face
 from fldr import *
 from fldrf import *
 
