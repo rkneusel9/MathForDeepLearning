@@ -31,7 +31,7 @@ for m in range(2,M+1):
         match = 0
         b = np.random.randint(0,365,m)
         for i in range(m):
-            for j in range(m):
+            for j in range(i, m): # starting from i to avoir comparing the same pair a second time
                 if (i != j) and (b[i] == b[j]):
                     match += 1
         if (match != 0):
