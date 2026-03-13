@@ -20,7 +20,7 @@ print("Counts by quartile:")
 print("    %d" % ((q[0] <= p) & (p < q[1])).sum())
 print("    %d" % ((q[1] <= p) & (p < q[2])).sum())
 print("    %d" % ((q[2] <= p) & (p < q[3])).sum())
-print("    %d" % ((q[3] <= p) & (p < q[4])).sum())
+print("    %d" % ((q[3] <= p) & (p <= q[4])).sum())
 print()
 
 h = np.bincount(p, minlength=100)
