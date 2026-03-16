@@ -12,7 +12,7 @@
 import numpy as np
 
 N = 1000000
-M = 4
+M = 3
 
 heads = np.zeros(M+1)
 
